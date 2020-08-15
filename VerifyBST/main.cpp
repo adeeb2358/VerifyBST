@@ -27,6 +27,7 @@ public:
   BST &insert(int val);
 };
 
+// bst validate code
 bool validateBSTHelper(BST *tree,int minVal,int maxVal){
     if(tree->value < minVal || tree->value >= maxVal){
         return false;
